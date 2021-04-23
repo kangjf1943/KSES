@@ -1,0 +1,32 @@
+---
+title: "Kyoto spatial ES"
+author: "Kang"
+output: pdf_document
+bibliography: In_ref.bib
+csl: In_forests.csl
+---
+# The objective? 
+To mapping target ecosystem services (air pollutants removal; and runoff reduction if possble, but here I just focuse on air pollutants removal) across Kyoto city. 
+
+# Why this research?
+<!-- 原文 -->The importance of vegetation for the improvement of air quality depends on many factors, including: among others, structure and species composition of urban trees, air pollution level, weather conditions, and characteristics of the population affected
+by air pollution. 
+i-Tree Eco software has been widely applied to evaluate ecosystem services, but one of the limitations of the software is that the pollution model used in the software cannot take into account spatial differences in pollutant concentrations. 
+The limitation, on the one hand, lowers the accuracy of air pollutants removal estimation; on the other hand, provide limited insight for policy making since spatial information is required during urban planning. 
+
+# What to do? 
+What we are going to do is pretty much like @szkop_evaluating_2020 did, which is: 
+
+- to separate the target city into several sub-city districts; 
+
+- to build several sub-programs for the sub-city districts; 
+
+- import the treed ata and air pollutants data of the sub-city districts respectively. 
+
+But, what we can make difference: 
+
+- to improve the accuracy of the air pollutants mapping, for example by interpolation; 
+
+- to make a supply-demand analysis of the ecosystem services. 
+
+
